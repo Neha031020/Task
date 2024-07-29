@@ -1,0 +1,8 @@
+<div>
+  <h2>Parent Component</h2>
+  <p>Parent Data: {{ parentData }}</p>
+  <p>Service Message: {{ directiveService.message }}</p>
+  <button (click)="updateParentData()">Update Parent Data</button>
+  
+  <app-child [childData]="childData"></app-child>
+</div>
